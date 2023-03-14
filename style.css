@@ -17,10 +17,16 @@ header {
 
     width: 38.4rem;
     height: 27.9rem;
+
+    /*Centralização dos itens*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header img {
-    margin-top: 3.2rem;
+    width: 13.7rem;
+    margin: 3.2rem auto;
 }
 
 header h1 {
@@ -35,8 +41,9 @@ header h1 {
     margin-top: 4.0rem;
     text-align: center;
 
-    width: 38.4rem;
-    height: 4.9rem;
+    width: 100%;
+    padding: 1rem 0;
+
     background: #CBC0D3;
 }
 
@@ -49,7 +56,7 @@ main {
 
 main p {
     font-family: 'Palanquin';
-    font-weight: 400;
+    font-weight: 40.0rem;
     font-size: 2.0rem;
     line-height: 1.5rem;
 
@@ -58,30 +65,35 @@ main p {
     text-align: center;
 
     color: #23053A;
-
+ 
     margin-top: 1.4rem;
     margin-bottom: 6.3rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 .card {
     margin-bottom: 3.2rem;
 
-    position: relative;
 }
 
 .card span {
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 2.0rem;
+    line-height: 3.4rem;
+
+    letter-spacing: 0.05em;
+
+    color: #4A4E69;
+
+    position: absolute;
     width: 11.2rem;
     height: 3.5rem;
 
     background: #FEEAFA;
     border-radius: 2.0rem;
-    padding: 0 2.4rem;
-    height: 3.4rem;
-
-    display: inline;
-    align-items: center;
-
-    position: absolute;
-    bottom: 19.9rem;
-    right: 1.6rem;
 }
